@@ -1,5 +1,7 @@
 # __Boris Pashkovich__
 
+![Boris Pashkovich](https://github.com/kelsoad/rsschool-cv/blob/3301f856bc0fabddbd651315ca774143e564a240/assets/img/avatar.png)
+
 ## __Contacts__
 - __Location:__ Brest, Belarus
 - __Phone:__ +375 33 605-91-82
