@@ -1,6 +1,6 @@
 # __Boris Pashkovich__
 
-![Boris Pashkovich](https://github.com/kelsoad/rsschool-cv/blob/3301f856bc0fabddbd651315ca774143e564a240/assets/img/avatar.png)
+![Boris Pashkovich](https://raw.githubusercontent.com/kelsoad/rsschool-cv/rsschool-cv-html/assets/img/avatar.png)
 
 ## __Contacts__
 - __Location:__ Brest, Belarus
