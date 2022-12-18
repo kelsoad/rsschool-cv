@@ -29,3 +29,6 @@ function exchangeValues(num1,num2){
 
 ## __Education__ 
 __University:__ Brest State University A.S. Pushkin, Teacher
+
+## __English__
+A1 - Beginner
