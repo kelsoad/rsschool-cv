@@ -4,9 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>cv</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="container" id="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+            <div class="toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container" id="main">
+            <section class="about-me" id="about-me">
+                <h1>Boris Pashkovich</h1>
+                <img src="./assets/img/avatar.png" alt="avatar" width="200px" height="200px">
+            </section>
+            <hr>
+            <section class="contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <div class="info">
+                    <div><b>Location:</b> Brest, Belarus</div>
+                    <div><b>Phone:</b> +375 33 605-91-82</div>
+                    <div>
+                        <b>Email:</b>
+                        <a href="mailto:boris.pashkovich@gmail.com">
+                            boris.pashkovich@gmail.com</a>
+                    </div>
+                    <div>
+                        <b>GitHub:</b>
+                        <a href="https://github.com/kelsoad">Boris Pashkovich</a>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="about-me" id="about-me">
+                <h2>About Me</h2>
+                <div>I aspiring philosopher...</div>
+            </section>
+            <hr>
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML (Basic)</li>
+                    <li>JavaScript (Basic)</li>
+                    <li>Git (Basic)</li>
+                </ul>
+            </section>
+            <hr>
+            <section class="code-example" id="code-example">
+                <h2>Code Example</h2>
+                <div>
+<pre>function exchangeValues(num1,num2){
+    num2 = num1 + num2;
+    num1 = num2 - num1;
+    num2 = num2 - num1;
+}</pre>
+</div>
+            </section>
+            <hr>
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <div><a href="https://medokbrest.by/"> medokbrest.by</a></div>
+            </section>
+            <hr>
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <div>University: Brest State University A.S. Pushkin, Teacher</div>
+            </section>
+            <hr>
+            <section class="english" id="english">
+                <h2>English</h2>
+                <div>A1 - Beginner</div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container" id="footer">
+            <a href="https://github.com/kelsoad" class="github">GitHub</a>
+            <span>2022</span>
+            <a href="https://rs.school/js/" class="rs">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="LogoRS" width="110" >
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
